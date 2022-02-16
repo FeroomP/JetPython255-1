@@ -1,6 +1,6 @@
 from math import *
 
-def fig3(arg1, arg2):
+def ob3(arg1, arg2):
     v = 2*pi*arg1*arg1*arg2
     return v
 
@@ -13,6 +13,7 @@ def ob4(arg1):
     return s
 
 def main():
+
     n = int(input("Выберите, площадь поверхности и объём какой фигуры вы хотите узнать?\n 1-куб\n 2-параллелепипед\n 3-цилиндр\n 4-шар\n n = "))
 
     if n == 3:
