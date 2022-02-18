@@ -8,10 +8,6 @@ def Ob3(arg1, arg2):
     v = 2*pi*arg1*arg1*arg2
     return v
 
-def ob3(arg1, arg2):
-    v = 2*pi*arg1*arg1*arg2
-    return v
-
 def fig4(arg1):
     s = 4 * pi * (arg1 ** 2)
     return s
